@@ -16,10 +16,11 @@ test('File upload test', async test_controller => {
         .expect(uploadedFilename.innerText).eql('sample.jpg')
 });
 
-test('File clear test', async test_controller => {
+test('Clear file test', async test_controller => {
     await test_controller
         .setFilesToUpload(chooseFileButton, '../upload/sample.jpg')
         .clearUpload(chooseFileButton)
+        .setFilesToUpload(chooseFileButton, '../upload/sample.jpg')
         .click(uploadButton)
         .expect(fileUploadedHeader.textContent).eql('File Uploaded!')
         .expect(uploadedFilename.innerText).eql('sample.jpg')
