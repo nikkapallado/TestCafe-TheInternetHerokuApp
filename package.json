@@ -1,0 +1,22 @@
+{
+  "name": "testcafe-theinternetherokuapp",
+  "version": "1.0.0",
+  "description": "Automation scripts for the internet heroku app written in testcafe",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nikkapallado/TestCafe-TheInternetHerokuApp.git"
+  },
+  "author": "niks.pallado",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nikkapallado/TestCafe-TheInternetHerokuApp/issues"
+  },
+  "homepage": "https://github.com/nikkapallado/TestCafe-TheInternetHerokuApp#readme",
+  "devDependencies": {
+    "testcafe": "^2.6.2"
+  }
+}
