@@ -1,6 +1,6 @@
 import {Selector} from 'testcafe';
 
-const iframe = Selector('iframe#mce_0_ifr123');
+const iframe = Selector('iframe#mce_0_ifr');
 const textArea = Selector('body#tinymce.mce-content-body ');
 
 fixture('iFrame fixture')
